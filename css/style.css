@@ -1,4 +1,30 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
+} */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav-btn {
+    background-color: oklch(51.1% 0.096 186.391);
+    color: white;
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-size: medium;
+    font-weight: normal;
+    transition: all 0.1s ease-in-out;
+}
+.nav-btn:hover{
+    background-color: oklch(43.7% 0.078 188.216);
+}
+
+.nav-link {
+    position: relative;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: rgb(194, 194, 194);
 }
